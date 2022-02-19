@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 features = "src/featureFiles/Login.feature",
 glue = "com.techfios.stepDefinition",
-tags = {"@Login"},
+tags = {"@LoginFillCustomerInfoFromDB"},
 monochrome = true,
 dryRun = false,
 plugin = {
